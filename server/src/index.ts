@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 import cors from "cors";
 import { roomHandler } from "./room";
 
-const port = 8080;
+const port = 3335;
 const app = express();
 app.use(cors);
 const server = http.createServer(app);
